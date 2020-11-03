@@ -18,7 +18,15 @@ const GlobalStyle = createGlobalStyle`
     --white: #e6f1ff;
     --green: #64ffda;
     --green-tint: rgba(100, 255, 218, 0.1);
-
+    --mid-green: #0AD48B
+    --deep-green: #05AC72
+    --dark-green: #056644
+    --mint: #3BFEB8
+    --mint-cream: #12EBA2
+    --verdant: #036D3D
+    --light-green: #7FEB45
+    --yellowish: #E6FF05
+    
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
 

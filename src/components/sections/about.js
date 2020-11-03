@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "profile.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -132,7 +132,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'HTML & (S)CSS',
+    'React',
+    'Python (3)',
+    'Node.js',
+    'WordPress',
+    'Gatsby',
+    'React Native',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +150,32 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
-
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              Hey{' '}
+              <span role="img" aria-label="waving hand">
+                👋
+              </span>
+              , I'm Michael Famurewa, a software engineer based in Ann Arbor, MI.{' '}
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              In 2018, I graduated from the University of Michigan with a degree in Political
+              Science and a desire to because a lawyer but while I was studying for the LSAT I
+              realized that Law School wasn't the right move for me. During this time I started to
+              code again and this reignited my love of technology.
+            </p>
+
+            <p>
+              I enjoy creating things that will have an impact on peoples lives whether that is
+              through learning or enabling people to do things that weren't possible for them
+              before. I love learning new things and getting others to enjoy learning as much as I
+              do is something I go out of my way to do.
+            </p>
+
+            <p>
+              I recently graduated from the fullstack web development program at{' '}
+              <a href="https://lambdaschool.com/">Lambda School</a>, and am looking for my first
+              software engineering position
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>

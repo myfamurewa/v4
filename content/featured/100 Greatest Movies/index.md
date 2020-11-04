@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: '100 Greatest Movies (WIP)'
-cover: './halcyon.png'
+cover: './filler.jpg'
 github: 'https://github.com/myfamurewa/100-Greatest-Movies-FE'
 external: ''
 tech:

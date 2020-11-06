@@ -2,7 +2,7 @@
 date: '2020-03-28'
 title: 'Dev Desk'
 github: 'https://github.com/bw-devdesk-queue-1/backend'
-external: ''
+external: 'https://frontend.kirtleyj16.now.sh/'
 tech:
   - Express
   - JS

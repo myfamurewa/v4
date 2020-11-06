@@ -2,7 +2,7 @@
 date: '2020-07-31'
 title: 'Conway's game of life'
 github: 'https://github.com/myfamurewa/CS-Build-Week-1-actual'
-external: 'gol-one.vercel.app'
+external: 'https://gol-one.vercel.app'
 tech:
   - React
 company: ''

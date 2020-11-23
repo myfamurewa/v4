@@ -7,6 +7,6 @@ range: 'December 2014- April 2015'
 url: 'https://lsa.umich.edu/urop'
 ---
 
-- Worked with a team of three designers to build a marketing website and e-commerce platform for [blistabloc](https://blistabloc.com), an ambitious startup originating from Northeastern
-- Helped solidify a brand direction for blistabloc that spans both packaging and web
-- Interfaced with clients on a weekly basis, providing technological expertise
+- Collaborated with a research team studying congenital eye diseases
+- Planned and prepared experiments
+- Designed and presented a poster detailing the results of experiments conducted

@@ -160,7 +160,7 @@ const About = () => {
 
             <p>
               In 2018, I graduated from the University of Michigan with a degree in Political
-              Science and a desire to because a lawyer but while I was studying for the LSAT I
+              Science and a desire to become a lawyer, but while I was studying for the LSAT I
               realized that Law School wasn't the right move for me. During this time I started to
               code again and this reignited my love of technology.
             </p>

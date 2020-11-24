@@ -5,6 +5,7 @@ company: 'Go Page'
 location: 'Ann Arbor, MI'
 range: 'May - September 2017'
 url: 'https://www.gopage.com/'
+id: 3
 ---
 
 - Developed strong team and interpersonal skills in a fast paced start-up environment

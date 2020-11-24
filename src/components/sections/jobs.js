@@ -163,6 +163,7 @@ const Jobs = () => {
         edges {
           node {
             frontmatter {
+              id
               title
               company
               location
@@ -176,8 +177,9 @@ const Jobs = () => {
     }
   `);
 
-  const jobsData = data.jobs.edges;
-
+  const jobsData = data.jobs.edges.sort((a, b) =>
+    a.node.frontmatter.id > b.node.frontmatter.id ? 1 : -1,
+  );
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
   const tabs = useRef([]);

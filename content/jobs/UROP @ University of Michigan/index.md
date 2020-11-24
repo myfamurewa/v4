@@ -5,6 +5,7 @@ company: 'Undegraduate Research Opportunity Program'
 location: 'Ann Arbor, MI'
 range: 'December 2014- April 2015'
 url: 'https://lsa.umich.edu/urop'
+id: 5
 ---
 
 - Collaborated with a research team studying congenital eye diseases

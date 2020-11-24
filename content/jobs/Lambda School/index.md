@@ -5,6 +5,7 @@ company: 'Lambda School'
 location: 'Remote'
 range: 'August - Nov 2020'
 url: 'https://lambdaschool.com/'
+id: 1
 ---
 
 - Managed / Mentored 10+ students through their learning journey at Lambda School

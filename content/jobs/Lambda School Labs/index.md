@@ -5,6 +5,7 @@ company: 'Lambda School'
 location: 'Remote'
 range: 'May - July 2020'
 url: 'https://lambdaschool.com/'
+id: 2
 ---
 
 - Worked with a team of 8 data scientists and web developers over an 2 month period
